@@ -6,15 +6,17 @@
 To write the prompts for these following prompt types and evaluate that using any one method 1. Straightforward Prompts, 2. Tabular Format Prompting 3.Preceding Question Prompting and 4. Missing Word Prompting
 
 ## Prompt type
-Procedure:
-<img width="1024" height="559" alt="unnamed" src="https://github.com/user-attachments/assets/f3a1c233-4c0a-4875-8a32-973f06a62661" />
+Procedure:<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c4840119-1089-4ef2-a601-cd123e23f145" />
+
 
 
 ## 1. Straightforward Prompts
 
 This is the most common and direct way to interact with an AI. You ask a direct question or give a clear command, and the AI provides a direct answer.
 
-* **How it works:** You treat the AI like a search engine or an expert, asking for factual information or a simple explanation.
+* **How it works:** 1. Straightforward Prompts
+* 
+Straightforward prompting is the simplest and most direct way to communicate with an AI system. In this method, the user asks a clear question or gives a simple instruction, and the AI responds with a direct answer. It works best for factual information, definitions, explanations, and quick learning. This type of prompting is easy to use because it does not require complex instructions or technical knowledge. The quality of the response mainly depends on how clear and specific the prompt is. For example, asking “What is a planet?” gives a direct explanation about planets. Straightforward prompts are commonly used in education, research, customer support, and daily AI interactions. They save time and provide quick results, making them ideal for beginners. However, vague prompts may produce unclear or general responses. To get better answers, users should ask precise questions using simple language. Overall, straightforward prompting forms the foundation of effective AI communication and helps users interact with AI systems efficiently and naturally..
 * **Example from image:** * *Ask:* "What is a planet?"
 * *AI Response:* "A large, celestial body that orbits a star..."
 
@@ -23,14 +25,15 @@ This is the most common and direct way to interact with an AI. You ask a direct 
 
 This technique is used when you need information organized, structured, or compared neatly. Instead of getting a wall of text, you instruct the AI to output its response in a table with specific columns.
 
-* **How it works:** You define the structure you want (e.g., "Create a table with columns for Concept, Definition, and Example").
+* **How it works:**Tabular format prompting is a technique used to organize AI responses in a structured table format instead of long paragraphs. In this method, the user clearly specifies the columns and categories required in the output. It is highly useful for comparisons, classifications, summaries, and presenting large amounts of information neatly. This prompting style improves readability and helps users quickly understand relationships between concepts. For example, a user can ask the AI to create a table with columns such as “Concept,” “Definition,” and “Example.” The AI then arranges the information systematically in rows and columns. Tabular prompting is widely used in education, research, business reports, and data analysis because it makes information visually clear and easy to compare. It also reduces confusion that may arise from unstructured text. However, if the instructions are unclear, the table may miss important details. To get better results, users should define the exact columns and formatting needed. Overall, tabular prompting is an effective method for presenting organized, concise, and easy-to-read AI responses.
 * **Example from image:** The AI generates a clean, three-column table organizing scientific terms like *Erosion* and *Gravity* alongside their definitions and examples.
 
 ## 3. Missing Word Prompting (Fill-in-the-Blanks)
 
 Also known as "cloze prompting," this method involves giving the AI a sentence with a blank space or an incomplete thought and asking it to complete it. It is highly effective for testing logic, vocabulary, or forcing a concise answer.
 
-* **How it works:** You provide the context and leave a placeholder (like `____`) for the AI to fill.
+* **How it works:**
+* Missing word prompting, also called fill-in-the-blank prompting, is a technique where the user provides an incomplete sentence and asks the AI to fill in the missing word or phrase. This method is useful for testing vocabulary, logic, grammar, memory, and contextual understanding. The AI analyzes the surrounding words and predicts the most suitable answer based on context. For example, the prompt “The opposite of hot is ____” is completed by the AI with the word “cold.” This technique is commonly used in education, quizzes, language learning, and examinations because it encourages concise and focused responses. It also helps improve critical thinking and recall ability. Missing word prompting is simple, interactive, and easy to understand, making it suitable for both beginners and advanced learners. However, unclear context may lead to multiple possible answers. To obtain accurate responses, users should provide meaningful and specific sentence structures. Overall, missing word prompting is an effective strategy for evaluating knowledge and generating short, context-based AI responses efficiently.
 * **Example from image:**
 * *Prompt:* "The opposite of hot is ____."
 * *AI Completes:* "cold"
@@ -39,7 +42,8 @@ Also known as "cloze prompting," this method involves giving the AI a sentence w
 
 This is a chained or multi-turn prompting strategy. Instead of throwing a complex request at the AI all at once, you prime it by asking a foundational question first, and then follow up with a related question based on that context.
 
-* **How it works:** Step one establishes the baseline knowledge, and step two builds upon it to get a deeper, more accurate answer.
+* **How it works:**
+*  Preceding question prompting is a multi-step prompting technique where one question is asked first to establish context, followed by another related question to gain deeper understanding. Instead of asking a complex question directly, the user gradually guides the AI through connected prompts. This method improves response accuracy because the AI can build upon previous information. For example, a user may first ask, “How far is the Earth from the Sun?” and then follow up with, “Is that distance constant?” The second question becomes clearer because the AI already understands the context from the first question. This prompting strategy is useful for complex topics, problem-solving, interviews, research discussions, and logical reasoning tasks. It encourages step-by-step thinking and helps users obtain detailed, context-aware answers. Preceding question prompting also creates more natural and meaningful conversations with AI systems. However, poorly connected questions may confuse the flow of discussion. To get better results, users should maintain logical continuity between prompts. Overall, this technique is highly effective for obtaining deeper insights and improving conversational AI interactions.
 * **Example from image:**
 * *Preceding Q1:* "How far is the Earth from the Sun?"
 * *Follow-up Q2:* "Is that distance constant?"
